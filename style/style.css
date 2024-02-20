@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+:root {
+    --theme-bg-l: #FFF2E9;
+    --theme-bg-d: #FD761D;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.border-none {
+    border: none;
+}
+
+.bg-none {
+    background: none;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.l-title {
+    font-size: 75px;
+}
+
+.m-title {
+    font-size: 20px;
+
+}
+
+
+
+/* 
+main section Css Starts here  
+*/
+.main {
+    position: relative;
+    margin: 0 0;
+    padding: 0;
+}
+
+.main .head img {
+    width: 18%;
+    padding: 20px;
+}
+
+.main::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: #f0f0f0;
+    z-index: -1;
+}
+
+.main .brand-img-side {
+    padding: 30px 0;
+}
+
+.main .brand-img-side .car-img {
+    max-width: 80%;
+    width: 60%;
+}
+
+.main .l-title span {
+    color: var(--theme-bg-d);
+}
+
+.main .brand-form-side input,
+.main .brand-form-side .form-select {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 6px;
+    margin: 10px 0 0 0;
+}
+
+.main .brand-form-side label {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    color: #776565;
+    left: 15px;
+}
+
+.main .brand-form-side {
+    margin-top: 70px;
+}
+
+.main .brand-form-side input,
+.main .brand-form-side .form-select {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 6px 17px;
+    margin: 0 0 30px 0;
+    color: #776565;
+
+}
+
+.main .brand-form-side .submit-form-btn {
+    background: var(--theme-bg-d);
+    color: #FFF;
+}
+
+.main .brand-form-side .logo-img {
+    width: 50%;
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+
+.main .brand-form-side h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*
+ main section Css Ends here 
+ */
+
+
+
+
+/*
+ highlights-servcie section Css Starts here 
+ */
+.highlights-servcie {
+    -webkit-backdrop-filter: blur(0.5px);
+    backdrop-filter: blur(0.5px);
+    padding: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 58%, 100% 84%, 49% 100%, 49% 100%, 0 85%, 0 25%);
+    background-image: linear-gradient(89deg, #033b55 -101%, #033b55 100%);
+}
+
+.highlights-servcie .title {
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.highlights-servcie .card {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.highlights-servcie img{
+    width: 14%;
+}
+/*
+ highlights-servcie section Css Ends here 
+ */
