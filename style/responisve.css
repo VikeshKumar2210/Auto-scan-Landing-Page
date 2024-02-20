@@ -1,12 +1,20 @@
-@media (min-width:520px) {
+@media (min-width:769px) {
     .mobile-view {
         display: none;
     }
 }
 
-@media (max-width:520px) {
+@media (max-width:769px) {
     .desktop-view {
         display: none;
+    }
+
+    .head h4 {
+        font-size: 28px;
+    }
+
+    .head {
+        padding: 20px;
     }
 }
 
@@ -14,14 +22,38 @@
 /*
  media query for Desktop View 
  */
-@media (max-width:1024) {
-    .l-title {
+@media (max-width:1025px) {
+
+    .main .l-title {
         font-size: 60px;
     }
 
     .main .brand-img-side .car-img {
-        max-width: 93%;
-        width: 80%;
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .highlights-servcie .title {
+        font-size: 23px;
+    }
+
+    .head h4 {
+        font-size: 30px;
+
+    }
+
+    .how-we-works .service-title {
+        font-size: 20px;
+    }
+
+    .how-we-works {
+        background-color: #F1F1F1;
+        padding: 120px 0 40px 0;
+        margin: -45px 0 0 0;
+    }
+
+    .testimonial-section .owl-item.active.center {
+        width: 450px !important;
     }
 }
 
@@ -39,10 +71,6 @@
         font-size: 60px;
     }
 
-    .main .brand-form-side .logo-img {
-        margin-bottom: 40px;
-    }
-
     .main .brand-form-side h5 {
         font-size: 22px;
         margin-bottom: 20px;
@@ -54,6 +82,49 @@
 
     .main::after {
         width: 55%;
+    }
+
+    /* how-we-works */
+    .how-we-works .service-title {
+        font-size: 18px;
+    }
+
+    .how-we-works article {
+        padding: 20px;
+    }
+
+    .main .brand-form-side .logo-img {
+        padding: 0;
+    }
+
+    .how-we-works article p {
+        padding: 10px 0;
+    }
+
+    .how-we-works {
+        padding: 90px 0 30px 0;
+    }
+
+    .testimonial-section .owl-carousel .owl-stage-outer {
+        height: 45vh;
+    }
+
+    .testimonial-section .head {
+        margin: 0;
+    }
+
+    .main .brand-img-side .car-img {
+        width: 100%;
+    }
+
+    .testimonial-section .owl-carousel .owl-dots {
+        display: none;
+    }
+
+    .testimonial-section .owl-nav {
+        position: absolute;
+        top: 0;
+        right: 10%;
     }
 }
 
@@ -67,7 +138,7 @@
  */
 @media (max-width:520px) {
     .main .brand-form-side .logo-img {
-        width: 50%;
+        width: 60%;
         margin-bottom: 20px;
     }
 
@@ -78,11 +149,14 @@
     .main .brand-img-side {
         padding: 40px 20px;
     }
-    .main{
+
+    .main {
         padding: 20px;
+        height: 100%;
     }
+
     .main::after {
-        width: 50%;
+        width: 100%;
     }
 
     .main .brand-img-side .car-img {
@@ -90,16 +164,106 @@
         width: 100%;
     }
 
+    .main .brand-form-side .logo-img {
+        padding: 0;
+    }
+
+    .m-title {
+        font-size: 20px;
+
+    }
+
     .main .brand-form-side input,
     .main .brand-form-side .form-select {
         margin: 0 0 20px 0;
     }
+
     .main .head img {
         width: 50%;
         padding: 20px;
     }
-    .main .brand-form-side{
+
+    .main .l-title {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+
+    .main::before {
+        background-image: linear-gradient(92deg, #ff000038 12%, #ff722978 47%, #ff9e2700 86%, #ffff0000 99%);
+        width: 100%;
+    }
+
+    .main .brand-form-side {
         margin-top: 20px;
+        margin-top: 20px;
+
+    }
+
+    /* how-we-works */
+    .how-we-works {
+        padding: 130px 20px 50px 20px;
+        margin: -90px 0 0 0;
+    }
+
+    .how-we-works .card {
+        margin: 0 0 20px 0;
+    }
+
+    .how-we-works .head h4 {
+        padding: 0;
+        font-size: 24px;
+    }
+
+    .how-we-works .head {
+        margin: 0 0 20px 0;
+    }
+
+    /* testimonial-section  */
+    .testimonial-section .head {
+        margin: 0;
+    }
+
+    .testimonial-section .owl-item.active.center {
+        width: 310px !important;
+        transform: translateY(0);
+        background: #FFFFFF;
+    }
+
+    .testimonial-section .owl-carousel .owl-item img {
+        width: 75px;
+        height: 75px;
+        left: -15px;
+    }
+
+    .testimonial-section .head h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .testimonial-section .owl-carousel .owl-stage-outer {
+        height: 40vh;
+    }
+
+    .footer-section {
+        padding: 30px 10px;
+    }
+
+    .footer-section .img-side img {
+        width: 70%;
+    }
+
+    .footer-section .container {
+        padding: 40px 10px 0 0;
+    }
+
+    .footer-section .content-side a {
+        padding: 12px 4px;
+
+    }
+
+    .footer-section figure {
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
